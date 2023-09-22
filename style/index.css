@@ -1,0 +1,27 @@
+body {
+    background-color: rgba(145,204,236,255);
+    align-items: center;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    z-index: 1;
+    text-align: center;
+    width: 60%;
+}
+
+input {
+    text-align: center;
+    width: 40%;
+}
+
+.ioContainer {
+    text-align: center;
+    width: 30%;
+}
+
+#message {
+    font-family: Comic Sans MS;
+}
