@@ -25,3 +25,17 @@ input {
 #message {
     font-family: Comic Sans MS;
 }
+
+#iterations {
+    border-radius: 0px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    height: 30px;
+    font-family: Comic Sans MS;;
+
+}
+
+#iterations:focus {
+    border-color: #ecb191;
+};
