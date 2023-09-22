@@ -6,6 +6,17 @@ body {
     justify-content: center;
 }
 
+.ioContainer button {
+    height: 30px;
+    background-color: rgba(145,204,236,255);
+    border-style: solid;
+}
+
+.ioContainer button:active {
+    background-color: #219dc6;
+    transform: translateY(4px);
+  }
+
 img {
     z-index: 1;
     text-align: center;
@@ -38,4 +49,4 @@ input {
 
 #iterations:focus {
     border-color: #ecb191;
-};
+}
