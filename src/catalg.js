@@ -14,7 +14,6 @@ function printCats (amount) {
 
 function generateCats (amountOfIterations) {
     console.log("clicjk");
-    debugger;
     removeAllChildNodes();
     let amountOfCats = 1;
     let counter = 0;
