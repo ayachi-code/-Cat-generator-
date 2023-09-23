@@ -1,6 +1,5 @@
 function removeAllChildNodes() {
     while (document.getElementById("output").firstChild) {
-        console.log(document.getElementById("output").removeChild(document.getElementById("output").firstChild));
         document.getElementById("output").removeChild(document.getElementById("output").firstChild)
     }
 }
